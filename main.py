@@ -1,5 +1,6 @@
 from all_models import Customer, Product
 
+
 if __name__ == "__main__":
     #create customers
     c1 = Customer('hosein','123','Hosein','hosein@mail.com')
@@ -13,12 +14,16 @@ if __name__ == "__main__":
 
     #create Products
     p1 = Product(1,'Product #1') # True -> price 0 🖇
-    p2 = Product(1,'Product #1', 1000)
-    p3 = Product(1, 'Product #1', 1000 , 'some description about product!')
+    p2 = Product(2,'Product #1', 1000)
+    p3 = Product(3, 'Product #1', 1000 , 'some description about product!')
 
    # 🔺 we cant call Class with method
    # Product.is_free() it is wrong
 
    # ✅ call object we built base on Class
    # then call method
-   p1.is_free()
+
+#p1,... obj can call atribute (upc) and call method (is_free())
+print(p1.upc, p1.is_free())
+print(p2.upc, p2.is_free())
+print(p3.upc, p3.is_free())
