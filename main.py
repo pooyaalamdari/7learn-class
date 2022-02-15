@@ -16,3 +16,9 @@ if __name__ == "__main__":
     p2 = Product(1,'Product #1', 1000)
     p3 = Product(1, 'Product #1', 1000 , 'some description about product!')
 
+   # 🔺 we cant call Class with method
+   # Product.is_free() it is wrong
+
+   # ✅ call object we built base on Class
+   # then call method
+   p1.is_free()
