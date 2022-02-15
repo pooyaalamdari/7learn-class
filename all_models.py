@@ -13,3 +13,9 @@ class Product:
         self.name = name
         self.price = price
         self.description = description
+
+
+    # it means in every where price is 0
+    # it will True 🖇
+    def is_free(self):
+        return self.price == 0

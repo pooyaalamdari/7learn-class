@@ -12,6 +12,7 @@ if __name__ == "__main__":
     )
 
     #create Products
-    p1 = Product(1,'Product #1')
+    p1 = Product(1,'Product #1') # True -> price 0 🖇
     p2 = Product(1,'Product #1', 1000)
     p3 = Product(1, 'Product #1', 1000 , 'some description about product!')
+
