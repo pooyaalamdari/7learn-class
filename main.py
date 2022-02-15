@@ -24,6 +24,8 @@ if __name__ == "__main__":
    # then call method
 
 #p1,... obj can call atribute (upc) and call method (is_free())
-print(p1.upc, p1.is_free())
-print(p2.upc, p2.is_free())
-print(p3.upc, p3.is_free())
+
+
+print('Check password for c1: ',c1.check_password('1375'))
+print('---')
+print('Check password for c1: ',c1.check_password('123'))

@@ -6,6 +6,9 @@ class Customer:
         self.email = email
         self.wallet_amount = 0
 
+    def check_password(self,password):
+        return self.password == password
+
 class Product:
 
     def __init__(self,upc,name,price=0,description=''):
